@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+ }
+   .main{
+      background-image: url(/images/handsomecopy.jpg); 
+      background-size: cover;
+      min-height: 95vh;
+      width: 100%;
+   }
+   .main h1{
+       font-size: 5rem;
+       font-weight: 800;
+       color: rgb(7, 7, 78);
+   }
+   .main input{
+       height: 71px;
+       width: 70%;
+       border: none;
+       outline: none;
+       padding: 15px;
+   }
+   .btn2{
+       height: 70px;
+       width: 25%;
+       background-color: #C53678;
+       color: white;
+       border: none;
+       outline: none;
+       cursor: pointer;
+       transition: all 0.4s;
+       margin-left: -4px;
+   }
+   .btn2:hover{
+       background: #C53678;
+       transition: all 0.4s;
+   }
+   .red{
+      color: #C53678; 
+   }
+   .ceta h1{
+       font-size: 3.5rem;
+       color: rgb(7, 7, 78);
+   }
+   .ceta .card:hover{
+       color: #C53678;
+       cursor: pointer;
+       transition: all 0.3s;
+       box-shadow: -2px 2px 22px -11px rgba(0,0,0,0.75);
+       -webkit-box-shadow: -2px 2px 22px -11px rgba(0,0,0,0.75);
+      -moz-box-shadow: -2px 2px 22px -11px rgba(0,0,0,0.75);
+   }
+   .btn3{
+       height: 70px;
+       width: 70%;
+       border: 1px solid #C53678;
+       background: transparent;
+       border-radius: 5px;
+       color: #C53678;
+       transition: all 0.4s;
+
+   }
+   .btn3:hover{
+       background: #C53678;
+       color: white;
+       border: none;
+       outline : none;
+       transition: all 0.4s;
+
+   }
+   
+   .btn0{
+    height: 52px;
+    width: 130px;
+    outline: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: all 0.4s;
+    background-color: #C53678;
+   }
+   .btn0:hover{
+    background: #FFFF;
+    color: black;
+   }
+   
+    .navbar-brand{
+    font-size: 2rem;
+    color: #C53678;
+   }
+   .nav-link{
+       color: rgb(10, 10, 94);
+   }
+   .nav-link:hover{
+      color: #C53678;
+      transition: 0.3s;
+   }
+   .nav-item{
+    color: rgb(7, 7, 78);
+    font-weight: 500;
+    padding-left: 35px;
+
+   }
